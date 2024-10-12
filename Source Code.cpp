@@ -219,7 +219,7 @@ int main()
 		else if( op=='2') instructions();
 		else if( op=='3') exit(0);
 		
-	}while(1);
+	} while(1);
 	
 	return 0;
 	// code complete:)
