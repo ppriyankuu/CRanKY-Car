@@ -202,7 +202,9 @@ void play(){
 int main()
 {
 	setcursor(0,0); 
-	srand( (unsigned)time(NULL)); 
+	srand( (unsigned)time(NULL));
+
+	cout << "Hello World" << endl;
 	 
 	do{
 		system("cls");
