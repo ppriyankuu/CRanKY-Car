@@ -204,8 +204,6 @@ int main()
 	setcursor(0,0); 
 	srand( (unsigned)time(NULL));
 
-	cout << "Hello World" << endl;
-	 
 	do{
 		system("cls");
 		gotoxy(10,5); cout<<" -------------------------- "; 
