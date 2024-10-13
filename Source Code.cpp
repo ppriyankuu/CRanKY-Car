@@ -199,8 +199,7 @@ void play(){
 	}
 }
 
-int main()
-{
+int main() {
 	setcursor(0,0); 
 	srand( (unsigned)time(NULL));
 
@@ -222,5 +221,4 @@ int main()
 	} while(1);
 	
 	return 0;
-	// code complete:)
 }
