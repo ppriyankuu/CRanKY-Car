@@ -39,7 +39,7 @@ void setcursor(bool visible, DWORD size) {
 	lpCursor.dwSize = size;
 	SetConsoleCursorInfo(console,&lpCursor);
 }
-void drawBorder(){  
+void drawBorder() {  
 	for(int i=0; i<SCREEN_HEIGHT; i++){
 		for(int j=0; j<17; j++){
 			gotoxy(0+j,i); cout<<"?";
@@ -50,9 +50,11 @@ void drawBorder(){
 		gotoxy(SCREEN_WIDTH,i); cout<<"?";
 	} 
 }
-void genEnemy(int ind){
+
+void genEnemy(int ind) {
 	enemyX[ind] = 17 + rand()%(33);  
 }
+
 void drawEnemy(int ind){
 	if( enemyFlag[ind] == true ){
 		gotoxy(enemyX[ind], enemyY[ind]);   cout<<"****";  
