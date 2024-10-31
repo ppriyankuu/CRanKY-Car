@@ -204,9 +204,9 @@ void play() {
 
 int main() {
 	setcursor(0,0); 
-	srand( (unsigned)time(NULL));
+	srand((unsigned)time(NULL));
 
-	do{
+	do {
 		system("cls");
 		gotoxy(10,5); cout<<" -------------------------- "; 
 		gotoxy(10,6); cout<<" |       CRanKY Car       | "; 
