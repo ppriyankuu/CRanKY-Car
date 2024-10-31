@@ -126,7 +126,7 @@ void instructions(){
 	getch();
 }
 
-void play() {
+void play(){
 	carPos = -1 + WIN_WIDTH/2;
 	score = 0;
 	enemyFlag[0] = 1;
