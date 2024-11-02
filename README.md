@@ -1,2 +1,2 @@
 # C++ code
-## `CAR game :]`
+## `CLI Car game :]`
