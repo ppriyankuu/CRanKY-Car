@@ -151,8 +151,8 @@ void play(){
 	getch();
 	gotoxy(18, 5);cout<<"                      ";
 	
-	while(1){
-		if(kbhit()){
+	while(1) {
+		if(kbhit()) {
 			char ch = getch();
 			if( ch=='a' || ch=='A' ){
 				if( carPos > 18 )
