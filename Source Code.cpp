@@ -4,7 +4,7 @@
 #include <windows.h>
 #include <time.h>
 
-#define SCREEN_WIDTH 90
+#define SCREEN_WIDTH 89
 #define SCREEN_HEIGHT 26
 #define WIN_WIDTH 70 
 
