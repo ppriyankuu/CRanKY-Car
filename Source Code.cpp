@@ -201,6 +201,7 @@ void play(){
 		}
 	}
 }
+
 // main function 
 int main() {
 	setcursor(0,0); 
